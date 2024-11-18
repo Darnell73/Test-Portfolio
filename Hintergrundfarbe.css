@@ -1,0 +1,83 @@
+/* Der gesamte Hintergrund des Body-Elements erhält einen linearen Verlauf */
+body {
+    background: linear-gradient(to bottom, #2d107c, #5e67b8);
+    /* Verlauf von Pink zu Orange */
+    height: 100vh;
+    /* Die Höhe nimmt den gesamten Viewport ein */
+    margin: 0;
+    /* Entfernt Standard-Abstände */
+    font-family: Arial, sans-serif;
+    /* Setzt eine Schriftart */
+    color: white;
+    /* Weißer Text auf dunklem Hintergrund */
+    display: flex;
+    /* Flexbox für zentrierte Inhalte */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+
+
+.link-button {
+    background-color: #4CAF50;
+    /* Grüne Hintergrundfarbe */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.link-button:hover {
+    background-color: #0a0114;
+    /* Etwas dunkler beim Hovern */
+}
+
+.link-knopf {
+    background-color: #ff0000;
+    /* Grüne Hintergrundfarbe */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.link-knopf:hover {
+    background-color: #140303;
+    /* Etwas dunkler beim Hovern */
+}
+
+.position1 {
+    position: relative;
+
+}
+
+
+
+.verschoben {
+    margin-left: 20px;
+    /* Verschiebt das Element 5px nach rechts */
+    margin-top: 20px;
+    /* Verschiebt das Element 20px nach unten */
+}
+
+
+.link-button1 {
+    background-color: #52d5c9;
+    /* Grüne Hintergrundfarbe */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
