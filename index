@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darnell's Portfolio</title>
+    <link rel="stylesheet" href="Hintergrundfarbe.css">
+
+
+</head>
+
+
+
+<body>
+
+
+
+    <div>
+        <u1><img src="pb.png" height="300" width="300" alt="avatar">
+
+        </u1>
+
+        <u1>
+            <p class="verschoben">Darnell Weidenauer</p>
+        </u1>
+
+        <ul>
+
+            <a href="lebenslaufdarnell.html" class="link-button">Lebenslauf</a>
+
+        </ul>
+
+
+
+        <ul>
+
+            <a href="Bewerbung.html" class="link-knopf"> Bewerbung</a>
+
+        </ul>
+
+        <div>
+
+            <a href="idea22.mp3" class="link-button1"> Test </a>
+
+            <script>
+                function playMusic() {
+                    // Hole das Audio-Element
+                    const audio = document.getElementById('idea22.mp3');
+                    // Spiele die Musik ab
+                    audio.play();
+                }
+            </script>
+
+        </div>
+
+
+
+        <div class="link-button1">
+            <button onclick="document.getElementById('background-music').play()">Play Music</button>
+
+            <audio id="background-music" loop>
+                <source src="idea22.mp3" type="audio/mpeg">
+                Dein Browser unterstützt das Audio-Tag nicht.
+            </audio>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+
+
+</html>
